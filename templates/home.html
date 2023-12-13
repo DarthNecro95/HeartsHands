@@ -4,6 +4,7 @@
         <title>Hearts & Hands</title>
 
         {% include 'bootstrap.html' %}
+        <link rel="stylesheet" href="{{url_for('static', filename= 'css/styles.css')}}">
         <style>
             #banner {
                 height: 360px;
@@ -12,7 +13,7 @@
             }
             
         </style>
-        <link rel="stylesheet" href="{{url_for('static', filename= 'css/styles.css')}}">
+        
     </head>
     {% include 'nav.html' %}
     <body>
