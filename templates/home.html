@@ -6,11 +6,12 @@
         {% include 'bootstrap.html' %}
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
         <style>
-            /* #banner {
+            #banner {
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
-            } */
+                background-image: url("https://raw.githubusercontent.com/DarthNecro95/HeartsHands/main/static/images/HeartsHandsParallaxAB.png")
+            }
 
             @media screen and (max-width: 600px) {
                 .topnav a:not(:first-child) {display: none;}
@@ -71,7 +72,7 @@
             <!-- <h1 class="text-center mt-4 mb-4">Careers</h1> -->
             <!-- <img class="img-fluid" id="banner" src="https://raw.githubusercontent.com/DarthNecro95/HeartsHands/main/static/images/HeartsHandsBanner.jpg"> -->
         <!-- First Parallax Image with Logo Text -->
-        <div class="parallax"></div>
+        <div class="banner"></div>
         <h2 class="text-center mt-2 mb-4">Hearts & Hands</h2>
         <p class="lead">
                 We are dedicated to bringing warmth and care to every child in need!!
