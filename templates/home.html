@@ -40,14 +40,17 @@
 
                 background-image: url("https://raw.githubusercontent.com/DarthNecro95/HeartsHands/main/static/images/HeartsHandsParallax.png");
 
-                background-position: top center !important;
-                background-size: cover !important;
-                background-repeat: no-repeat !important;
-                margin: 0 auto !important;
-                padding-top: 250px;
-                position: relative;
-                width: 100%;
-                height: 1124px;
+                
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+                /* Set a specific height */
+                padding-top: 100px;
+                min-height: 1124px;
+                
                 }
 
             /* Turn off parallax scrolling for tablets and phones */
