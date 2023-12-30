@@ -6,13 +6,14 @@
         {% include 'bootstrap.html' %}
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
         <style>
-            #banner {
+            .hero-img {
                 background: url("https://raw.githubusercontent.com/DarthNecro95/HeartsHands/main/static/images/HeartsHandsParallaxAB.png");
-                width: 100%;
+                background-color: #cccccc;
                 height: 800px;
-                object-fit: cover;
-                display: block;
+                background-position: center;
                 background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
                 
             }
 
@@ -75,7 +76,7 @@
             <!-- <h1 class="text-center mt-4 mb-4">Careers</h1> -->
             <!-- <img class="img-fluid" id="banner" src="https://raw.githubusercontent.com/DarthNecro95/HeartsHands/main/static/images/HeartsHandsBanner.jpg"> -->
         <!-- First Parallax Image with Logo Text -->
-        <div id="banner"></div>
+        <div class="hero-img"></div>
         <h2 class="text-center mt-2 mb-4">Hearts & Hands</h2>
         <p class="lead">
                 We are dedicated to bringing warmth and care to every child in need!!
